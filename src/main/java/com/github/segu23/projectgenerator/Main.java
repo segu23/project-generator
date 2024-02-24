@@ -36,6 +36,8 @@ public class Main {
 
         try (FileWriter writer = new FileWriter(programArguments.get("output"))) {
             GSON_INSTANCE.toJson(relationalEntityMap, writer);
+            System.out.println(GSON_INSTANCE.toJson(relationalEntityMap));
+            System.out.println("Successfully generation!");
         } catch (IOException e) {
             e.printStackTrace();
         }
