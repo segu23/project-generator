@@ -1,4 +1,4 @@
-package com.github.segu23.model;
+package com.github.segu23.projectgenerator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

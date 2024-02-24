@@ -1,8 +1,8 @@
-package com.github.segu23;
+package com.github.segu23.projectgenerator;
 
-import com.github.segu23.model.EntityColumn;
-import com.github.segu23.model.RelationalEntity;
-import com.github.segu23.model.TableRelation;
+import com.github.segu23.projectgenerator.model.EntityColumn;
+import com.github.segu23.projectgenerator.model.RelationalEntity;
+import com.github.segu23.projectgenerator.model.TableRelation;
 import com.google.gson.Gson;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import net.sf.jsqlparser.statement.Statement;
